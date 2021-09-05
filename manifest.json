@@ -1,0 +1,16 @@
+{
+  "name": "TORICon Graph",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "TORIBO Content Graph",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://contest.tribox.com/user/*"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
