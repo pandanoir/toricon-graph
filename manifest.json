@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "manifest_version": 2,
   "description": "TORIBO Content Graph",
+  "permissions": [],
   "content_scripts": [
     {
       "matches": [
